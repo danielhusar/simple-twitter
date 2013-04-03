@@ -1,0 +1,33 @@
+{
+  "name": "node-twitter",
+  "version": "1.0.0",
+  "description": "Twitter simple library.",
+  "keywords": [
+    "twitter",
+    "oauth",
+  ],
+  "author": {
+    "name": "Daniel Husár",
+    "email": "dano.husar@gmail.com"
+  },
+  "dependencies": {
+    "oauth": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danielhusar/node-twitter"
+  },
+  "main": "index",
+  "engines": [
+    "node >= 0.8.0"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://en.wikipedia.org/wiki/MIT_License"
+    }
+  ],
+  "readmeFilename": "Readme.md",
+  "_id": "node-twitter@1.0.0",
+  "_from": "node-twitter"
+}
