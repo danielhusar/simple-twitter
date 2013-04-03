@@ -1,10 +1,10 @@
 {
-  "name": "node-twitter",
+  "name": "simple-twitter",
   "version": "1.0.0",
   "description": "Twitter simple library.",
   "keywords": [
     "twitter",
-    "oauth",
+    "oauth"
   ],
   "author": {
     "name": "Daniel Husár",
@@ -28,6 +28,6 @@
     }
   ],
   "readmeFilename": "Readme.md",
-  "_id": "node-twitter@1.0.0",
-  "_from": "node-twitter"
+  "_id": "simple-twitter@1.0.0",
+  "_from": "simple-twitter"
 }
