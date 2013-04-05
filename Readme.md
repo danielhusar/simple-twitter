@@ -40,6 +40,13 @@ twitter.on('get:statuses/user_timeline', function(error, data){
 });
 ```
 
+Chainable get method via node events.
+```javascript
+twitter.get("search/tweets", "?geocode=37.781157,-122.398720,100mi").on('get:search/tweets', function(error, data){
+  console.dir(data);
+});
+```
+
 Post method:
 ```javascript
 twitter.post('statuses/update',
