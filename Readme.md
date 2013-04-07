@@ -34,17 +34,17 @@ twitter.get('statuses/user_timeline',
 ```
 Get method via node events.
 ```javascript
-twitter.get("statuses/user_timeline");
 twitter.on('get:statuses/user_timeline', function(error, data){
 	console.dir(data);
 });
+twitter.get("statuses/user_timeline");
 ```
 
 Chainable get method via node events.
 ```javascript
-twitter.get("search/tweets", "?geocode=37.781157,-122.398720,100mi").on('get:search/tweets', function(error, data){
-  console.dir(data);
-});
+twitter.on('get:search/tweets', function(error, data){
+	console.dir(data);
+}).get("search/tweets", "?geocode=37.781157,-122.398720,100mi");
 ```
 
 Post method:
@@ -58,9 +58,9 @@ twitter.post('statuses/update',
 ```
 Post method via node events.
 ```javascript
-twitter.post('statuses/update', {'status' : 'testing message'});
 twitter.on('post:statuses/update', function(error, data){
 	console.dir(data);
 });
+twitter.post('statuses/update', {'status' : 'testing message'});
 ```
 
