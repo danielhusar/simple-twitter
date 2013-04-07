@@ -2,35 +2,34 @@
 
 ## Description
 
-Twitter simple library.
-It supporst API 1.1
-Currently it runs get and post methods.
+Twitter simple library.<br>
+It supporst API 1.1<br>
+Currently it runs get and post methods.<br>
 It supports caching inside json files, and node events.
 
 ## Installation
-Download and place it inside node_moudles.
-Or use npm: npm install simple-twitter.
+Download and place it inside node_modules.<br>
+Or use npm: <b>npm install simple-twitter</b>.
 
 # Usage
 
 Constructor:
 ```javascript
  var twitter= require('twitter');
- twitter = new twitter('xxx', 
-											 'xxx', 
-											 'xxx',
-											 'xxx',
-												3600
-											 );
+ twitter = new twitter( 'xxx', 
+						'xxx', 
+						'xxx',
+			 			'xxx',
+						3600
+		      		  );
 ```
 
 Get method:
 ```javascript
 twitter.get('statuses/user_timeline',  
-						 function(error, data) {
-							 console.dir(data);
-						 }
-					 );
+			function(error, data) {
+				console.dir(data);
+		   });
 ```
 Get method via node events.
 ```javascript
@@ -50,11 +49,11 @@ twitter.on('get:search/tweets', function(error, data){
 Post method:
 ```javascript
 twitter.post('statuses/update',
-							{'status' : 'testing message'},  
-							function(error, data) {
-								console.dir(data);
-							}
-						);	
+			 {'status' : 'testing message'},  
+				function(error, data) {
+					console.dir(data);
+				}
+			);	
 ```
 Post method via node events.
 ```javascript
