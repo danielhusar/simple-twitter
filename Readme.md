@@ -15,7 +15,7 @@ Or use npm: <b>npm install simple-twitter</b>.
 
 Constructor:
 ```javascript
- var twitter= require('twitter');
+ var twitter = require('simple-twitter');
  twitter = new twitter( 'xxx', 
 						'xxx', 
 						'xxx',
