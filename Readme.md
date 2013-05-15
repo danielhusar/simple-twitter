@@ -4,7 +4,7 @@
 
 Twitter simple library.<br>
 It supporst API 1.1<br>
-Currently it runs get and post methods.<br>
+Currently it runs only get and post methods. (streaming is not supported)<br>
 It supports caching inside json files, and node events.
 
 ## Installation
@@ -16,11 +16,11 @@ Or use npm: <b>npm install simple-twitter</b>.
 Constructor:
 ```javascript
  var twitter = require('simple-twitter');
- twitter = new twitter( 'xxx', 
-						'xxx', 
-						'xxx',
-			 			'xxx',
-						3600
+ twitter = new twitter( 'xxx', //consumer key from twitter api
+						'xxx', //consumer secret key from twitter api
+						'xxx', //acces token from twitter api
+			 			'xxx', //acces token secret from twitter api
+						3600  //(optional) time in seconds in which file should be cached (only for get requests), put false for no caching
 		      		  );
 ```
 
