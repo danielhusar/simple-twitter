@@ -6,12 +6,12 @@
     "twitter",
     "oauth"
   ],
+  "scripts": {
+    "test": "mocha"
+  },
   "author": {
     "name": "Daniel Husár",
     "email": "dano.husar@gmail.com"
-  },
-  "dependencies": {
-    "oauth": "*"
   },
   "repository": {
     "type": "git",
@@ -27,6 +27,12 @@
       "url": "http://en.wikipedia.org/wiki/MIT_License"
     }
   ],
+  "dependencies": {
+    "oauth": "*"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
   "readmeFilename": "Readme.md",
   "_id": "simple-twitter@1.0.0",
   "_from": "simple-twitter"
