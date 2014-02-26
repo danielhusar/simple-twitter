@@ -1,4 +1,6 @@
-# Simple Twitter [![Build Status](https://travis-ci.org/danielhusar/node-twitter.png?branch=master)](https://travis-ci.org/danielhusar/node-twitter)
+# Simple Twitter [![Build Status](https://travis-ci.org/danielhusar/simple-twitter.png?branch=master)](https://travis-ci.org/danielhusar/simple-twitter) [![NPM version](https://badge.fury.io/js/simple-twitter.png)](http://badge.fury.io/js/simple-twitter)
+
+[![NPM](https://nodei.co/npm/simple-twitter.png)](https://nodei.co/npm/simple-twitter/)
 
 ## Description
 
