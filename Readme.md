@@ -1,4 +1,4 @@
-# Simple Twitter
+# Simple Twitter [![Build Status](https://travis-ci.org/danielhusar/node-twitter.png?branch=master)](https://travis-ci.org/danielhusar/node-twitter)
 
 ## Description
 
@@ -26,7 +26,7 @@ Constructor:
 
 Get method:
 ```javascript
-twitter.get('statuses/user_timeline',  
+twitter.get('statuses/user_timeline',
 			function(error, data) {
 				console.dir(data);
 		   });
@@ -49,11 +49,11 @@ twitter.on('get:search/tweets', function(error, data){
 Post method:
 ```javascript
 twitter.post('statuses/update',
-			 {'status' : 'testing message'},  
+			 {'status' : 'testing message'},
 				function(error, data) {
 					console.dir(data);
 				}
-			);	
+			);
 ```
 Post method via node events.
 ```javascript
