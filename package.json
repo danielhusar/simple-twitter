@@ -7,7 +7,7 @@
     "oauth"
   ],
   "scripts": {
-    "test": "mocha --reporter Spec"
+    "test": "mocha"
   },
   "author": {
     "name": "Daniel Husár",
