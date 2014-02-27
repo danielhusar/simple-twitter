@@ -1,13 +1,13 @@
 {
   "name": "simple-twitter",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "Twitter simple library.",
   "keywords": [
     "twitter",
     "oauth"
   ],
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --reporter List"
   },
   "author": {
     "name": "Daniel Husár",
@@ -31,7 +31,8 @@
     "oauth": "*"
   },
   "devDependencies": {
-    "mocha": "*"
+    "mocha": "*",
+    "should": "*"
   },
   "readmeFilename": "Readme.md",
   "_id": "simple-twitter@1.0.0",
