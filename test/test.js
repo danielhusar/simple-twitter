@@ -52,7 +52,6 @@ describe('With cache: ', function(){
       data.test.should.equal('test');
       //clear cache folder
       fs.unlink('cache/whatever.json');
-      fs.rmdir('cache');
     });
   });
 });
