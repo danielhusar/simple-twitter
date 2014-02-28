@@ -4,7 +4,7 @@ var should = require('should');
 var fs = require('fs');
 var twitter = require('../index');
 var noCache = new twitter('xxx', 'xxx', 'xxx', 'xxx', false);
-var cache = new twitter('xxx', 'xxx', 'xxx', 'xxx', true);
+var cache = new twitter('xxx', 'xxx', 'xxx', 'xxx', 3600);
 
 //mockups
 noCache.oa = {};
