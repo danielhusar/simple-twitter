@@ -1,6 +1,6 @@
 {
   "name": "simple-twitter",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Twitter simple library.",
   "keywords": [
     "twitter",
@@ -28,11 +28,11 @@
     }
   ],
   "dependencies": {
-    "oauth": "*"
+    "oauth": "^0.9.12"
   },
   "devDependencies": {
-    "mocha": "*",
-    "should": "*"
+    "mocha": "^1.20.1",
+    "should": "^4.0.4"
   },
   "readmeFilename": "Readme.md"
 }
