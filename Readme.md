@@ -65,3 +65,6 @@ twitter.on('post:statuses/update', function(error, data){
 twitter.post('statuses/update', {'status' : 'testing message'});
 ```
 
+## License
+
+MIT © [Daniel Husar](https://github.com/danielhusar)
